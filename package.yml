@@ -1,0 +1,14 @@
+name       : direnv
+version    : 2.11.3
+release    : 1
+source     :
+    - https://github.com/direnv/direnv/archive/v2.11.3.tar.gz : 2d34103a7f9645059270763a0cfe82085f6d9fe61b2a85aca558689df0e7b006
+license    : MIT
+component  : programming.tools
+summary    : direnv is an environment switcher for the shell.
+description: |
+    direnv is an environment switcher for the shell. It knows how to hook into bash, zsh, tcsh and fish shell to load or unload environment variables depending on the current directory. This allows project-specific environment variables without cluttering the "~/.profile" file.
+builddeps  :
+    - golang
+install    : |
+    %make_install DESTDIR=$installdir/usr
