@@ -1,8 +1,8 @@
 name       : direnv
-version    : 2.15.2
-release    : 3
+version    : 2.17.0
+release    : 4
 source     :
-    - https://github.com/direnv/direnv/archive/v2.15.2.tar.gz : 35076978e2ccbd367043e8aa33ba4268c03270a68bac3789262dacb3b26115c2
+    - https://github.com/direnv/direnv/archive/v2.17.0.tar.gz : 1402cfbd9988cfe86d0ded47bd9732a061581f04bdb6275f156d8654e4d09a3a
 license    : MIT
 component  : programming.tools
 summary    : direnv is an environment switcher for the shell.
